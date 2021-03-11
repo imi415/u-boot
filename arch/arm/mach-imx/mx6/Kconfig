@@ -453,7 +453,7 @@ config TARGET_MX6ULL_14X14_EVK
 
 config TARGET_MYS_6ULX
 	bool "MYiR MYS-6ULX"
-	depends on MX6ULL
+	depends on MX6UL || MX6ULL
 	select DM
 	select DM_ETH
 	select DM_GPIO
